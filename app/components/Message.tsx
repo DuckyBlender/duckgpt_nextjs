@@ -22,7 +22,7 @@ const Message = ({ props }: { props: MessageInterface }) => {
                 </div>
                 <div className="chat-bubble">{props.message}</div>
                 <div className="chat-footer opacity-50">
-                    {props.model} - {props.tokensPerSecond} tokens per second
+                    {props.model ? `${props.model}` : null}{props.tokensPerSecond ? ` - ${props.tokensPerSecond} tokens per second` : null}
                 </div>
             </div>
 
