@@ -13,6 +13,7 @@ export async function POST(request: Request) {
 
   const model = ollama
     .ChatTextGenerator({ model: "tinyllama:1.1b-chat-v0.6-q8_0" })
+    .withSettings({ temperature: 0.2 })
     .withChatPrompt();
 
   const prompt = {

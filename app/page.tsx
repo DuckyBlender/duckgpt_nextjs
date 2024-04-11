@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar />
 
       <main className="flex flex-col items-center justify-center flex-grow text-center p-4">
-        <h1 className="text-3xl mb-4">Welcome to DuckGPT: DuckyBlender's custom models.</h1>
+        <h1 className="text-3xl mb-4">Welcome to DuckGPT: DuckyBlender&apos;s custom models.</h1>
         <p className="mb-4">Warning: There are models which can be extremely offensive. They are labeled as NSFW</p>
         <StartChatButton />
       </main>
