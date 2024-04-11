@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar"
-import StartChatButton from "./components/StartChatButton"
+import Navbar from "./components/common/Navbar"
+import StartChatButton from "./components/root/StartChatButton"
 
 export default function Home() {
   return (
