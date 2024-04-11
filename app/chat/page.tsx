@@ -10,6 +10,7 @@ import { useChat } from 'ai/react';
 const ChatPage = () => {
     const { messages, input, handleInputChange, handleSubmit } = useChat();
 
+
     return (
         <div className="flex flex-col h-screen text-white">
             <Navbar />
@@ -17,13 +18,13 @@ const ChatPage = () => {
                 <Chatbox messages={messages} />
             </div>
             <ChatInput 
-        input={input} 
-        handleInputChange={handleInputChange} 
-        handleSubmit={handleSubmit}
-    
-      />
+                input={input} 
+                handleInputChange={handleInputChange} 
+                handleSubmit={handleBotThinking}
+            />
         </div>
     );
 };
+
 
 export default ChatPage;

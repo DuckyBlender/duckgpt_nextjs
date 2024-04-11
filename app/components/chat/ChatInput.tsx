@@ -8,7 +8,7 @@ import sendIcon from "../../../public/send.svg";
 import fireIcon from "../../../public/fire.svg";
 
 
-const ChatInput = ({ input, handleInputChange, handleSubmit }: { input: string, handleInputChange: UseChatHelpers['handleInputChange'], handleSubmit: UseChatHelpers['handleSubmit'] }) => {
+const ChatInput = ({ input, handleInputChange, handleSubmit}: { input: string, handleInputChange: UseChatHelpers['handleInputChange'], handleSubmit: UseChatHelpers['handleSubmit'] }) => {
     return (
         <div className="flex m-4 space-x-4">
             <form onSubmit={(e: React.FormEvent<HTMLFormElement>) => handleSubmit(e)} className="flex-grow flex space-x-4">
