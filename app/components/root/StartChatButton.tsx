@@ -6,7 +6,7 @@ import React from 'react'
 const StartChatButton = () => {
     return (
         <Link href="/chat">
-            <button className="btn">Start Chat</button>
+            <button className="btn text-white">Start Chat</button>
         </Link>
     )
 }

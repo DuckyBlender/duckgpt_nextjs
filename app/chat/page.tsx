@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import React from 'react';
 import Navbar from '../components/common/Navbar';
@@ -16,12 +16,11 @@ const ChatPage = () => {
             <div className="overflow-auto">
                 <Chatbox messages={messages} />
             </div>
-            <ChatInput 
-        input={input} 
-        handleInputChange={handleInputChange} 
-        handleSubmit={handleSubmit} 
-    
-      />
+            <ChatInput
+                input={input}
+                handleInputChange={handleInputChange}
+                handleSubmit={handleSubmit}
+            />
         </div>
     );
 };
